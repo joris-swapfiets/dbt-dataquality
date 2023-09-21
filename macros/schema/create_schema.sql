@@ -1,4 +1,4 @@
-{% macro create_schema(dry_run=false) %}
+{% macro create_schema_renamed(dry_run=false) %}
 
     {% do log("create_schema started", info=True) %}
 

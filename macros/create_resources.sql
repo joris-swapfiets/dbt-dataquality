@@ -1,7 +1,7 @@
 {% macro create_resources(dry_run=False, internal_stage=true, create_default_schema=true) %}
 
   {% if create_default_schema %}
-    {{ create_schema(dry_run) }}
+    {{ create_schema_renamed(dry_run) }}
   {% endif %}    
 
   {% if internal_stage %}
